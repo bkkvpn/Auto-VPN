@@ -226,7 +226,7 @@ echo "à¸£à¸«à¸±à¸ªà¸œà¹ˆà¸²à¸™à¹„à¸¡à¹ˆà¸�
 echo "=============================="
 echo ""
 rm /usr/bin/pass
-rm Install
+rm ./vip-install.sh
 exit
 
 fi
