@@ -102,6 +102,21 @@ echo -e "\033[34;1m =============== OS-32 & 64-bit =================    "
 echo -e "\033[34;1m  ไอพีเซิฟ: $IP "
 echo ""
 echo ""
+
+echo ""
+    read -p "password: " passwds
+wget -q -O /usr/bin/pass https://github.com/xovpn/Auto-VPN/blob/master/PassKey.txt
+if ! grep -w -q $passwds /usr/bin/pass; then
+clear
+echo ""
+echo "=============================="
+echo "à¸£à¸«à¸±à¸ªà¸œà¹ˆà¸²à¸™à¹„à¸¡à¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡ à¹‚à¸›à¸£à¸”à¸¥à¸­à¸‡à¹ƒà¸«à¸¡à¹ˆà¸­à¸µà¸à¸„à¸£à¸±à¹‰à¸‡"
+echo "=============================="
+echo ""
+rm /usr/bin/pass
+rm Install
+exit
+
 # Install openvpn
 cd
 echo -e "\033[35;1m
