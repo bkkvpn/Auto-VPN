@@ -5,4 +5,11 @@
 - ./openvpn-install.sh
 - ติดตั้งเสร็จ พิมพ์ menu 
 
+# ** ติดตั้ง Openvpn  ** <br>
+- sudo -i
+- wget https://raw.githubusercontent.com/xovpn/Auto-VPN/master/zoovpn-install.sh
+- chmod +x zoovpn-install.sh
+- ./zoovpn-install.sh
+- ติดตั้งเสร็จ พิมพ์ menu 
+
 
